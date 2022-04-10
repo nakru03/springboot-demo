@@ -1,6 +1,8 @@
 package com.nakru03.spring.springboot.web.dto;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Getter
 @RequiredArgsConstructor
